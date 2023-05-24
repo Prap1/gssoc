@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
-import PreLoadder from "./PreLoadder";
+import PreLoadder from "../components/PreLoadder";
 
 const About = () => {
   const [isLoading, setIsLoading] = useState(true);
